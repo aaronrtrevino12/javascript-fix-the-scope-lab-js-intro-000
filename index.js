@@ -28,5 +28,7 @@ var funkyFunction = function() { // funkyFunction
   }
 }
 
-// We want this to return "FUNKY!" -- how can we accomplish that?
-var theFunk = funkyFunction()()
+// How can we return "FUNKY!"?
+// var theFunk = funkyFunction  <-- this returns function without running it
+// var theFunk = funkyFunction()  <-- this runs function but only returns the second function "function()"
+var theFunk = funkyFunction()()  // this returns "FUNKY!"
