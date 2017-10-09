@@ -10,7 +10,7 @@ function yourAnimal() {
 }
 
 function add2(n) {
-  const two = 2  // defined variable before returning 
+  const two = 2  // defined variable before addition
   return n + two
 }
 
