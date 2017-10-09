@@ -31,4 +31,4 @@ var funkyFunction = function() { // funkyFunction
 // How can we return "FUNKY!"?
 // var theFunk = funkyFunction  <-- this returns function without running it
 // var theFunk = funkyFunction()  <-- this runs function but only returns the second function "function()"
-var theFunk = funkyFunction()()  // this returns "FUNKY!"
+var theFunk()() = funkyFunction  // this returns "FUNKY!"
