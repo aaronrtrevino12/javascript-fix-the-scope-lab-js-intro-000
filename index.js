@@ -5,7 +5,7 @@ function myAnimal() {
 }
 
 function yourAnimal() {
-  var animal = 'cat'  // added local variable in order to return 'cat' and not global variable 'dog'
+  var animal = 'cat'  // returns local variable 'cat' and not global variable 'dog'
   return animal
 }
 
